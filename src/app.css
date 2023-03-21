@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{margin:0px; padding:0px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+
+.left, .left-side, .pull-left{float:left;}
+.right, .right-side, .pull-right{float:right;}
+.clear{clear:both;}
+.clearfix:after{clear:both; content:""; display:block;}
+a img{border:0px;}
+a{text-decoration:none; color:#0D6BB2;}
+a:hover{color:#b9baba;}
+
+.align-left{text-align:left;}
+.align-center{text-align:center;}
+.align-right{text-align:right;}
+.vertical-align{vertical-align:top;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+
+li{list-style-type:none;}
+.underline{text-decoration:underline;}
+img{max-width:100%;}
+
+html{
+}
+body{
+    background: #1A1A1A;
+    min-height: 100vh;
+    color: hsl(15, 100%, 55%);
+    color: hsl(0, 0%, 90%);
+    color: #94a3b8;
+}
